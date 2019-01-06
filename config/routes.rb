@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
  get '/about', to: 'pages#about'
  
- get '/index', to: 'articles#index'
+ get '/articles', to: 'articles#index'
  
  resources :articles
 end
